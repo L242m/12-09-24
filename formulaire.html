@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulaire de Contact</h1>
+        <nav>
+            <a href="../acceuil/index.html" class="back-to-home">Retour au Sommaire</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom" placeholder="Votre nom" maxlength="50" required></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom :</label></td>
+                    <td><input type="text" id="prenom" name="prenom" placeholder="Votre prénom" maxlength="50" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Votre email" maxlength="100" required></td>
+                </tr>
+                <tr>
+                    <td><label for="departement">Numéro de département :</label></td>
+                    <td><input type="number" id="departement" name="departement" placeholder="Ex: 75" maxlength="2" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message :</label></td>
+                    <td><textarea id="message" name="message" rows="5" cols="40" placeholder="Votre message" maxlength="500" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="fichier">Votre CV :</label></td>
+                    <td><input type="file" id="fichier" name="fichier"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Envoyer"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Formulaire de contact</p>
+    </footer>
+</body>
+</html>
